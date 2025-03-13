@@ -2,9 +2,6 @@
 #include <iomanip>
 using namespace std;
 
-
-
-
 // Math  Literature  English
 void Average(double scoreMath, double scoreLiterature, double English );
 int main()

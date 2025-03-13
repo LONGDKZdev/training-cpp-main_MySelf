@@ -11,15 +11,13 @@ int giaithua(int valueA)
     else
     return valueA * giaithua(valueA-1);
 }
-
-
 int main()
 {
     int valueIn;
     cout <<"Enter the value =";
     cin >> valueIn;
     int valueOut = giaithua(valueIn);
-    cout << "valueOut ="<<sqrt(valueOut)<<"\n";
+    cout << "valueOut ="<<fixed<<setprecision(3)<<sqrt(valueOut)<<"\n";
 
 system("Pause");
 }
